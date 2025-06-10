@@ -4,6 +4,9 @@ from torchvision import transforms
 from PIL import Image
 import os
 
+
+https://bour.so/p/IW9CUSpzAr5
+
 class MyDataset(Dataset):
     def __init__(self, data_path, transform=None):
         self.data_path = data_path
